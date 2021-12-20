@@ -32,7 +32,26 @@ h2 {
 
 /* this is the styling for the paragraphs */
 
+.life {
+  border: 3px solid forestgreen;
+  color: #f2b818;
+  width: 30%;
+  padding: 2em;
+  margin: 10px;
+  float: left;
+}
+
+.career {
+  border: 3px solid forestgreen;
+  color: #f2b818;
+  width: 30%;
+  padding: 2em;
+  margin: 10px;
+  float: right;
+}
+
 .music {
+  margin: auto;
   color: #f2b818;
   text-align: left;
 }
