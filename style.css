@@ -1,3 +1,4 @@
+/* This is the property for the image on the fanpage */
 img {
   max-width: 100%;
   display: Block;
@@ -6,6 +7,7 @@ img {
   border-radius: 50px;
 }
 
+/* This is property for the h1 tag on both pages */
 h1 {
   text-align: left;
   font-size: 34px;
@@ -15,13 +17,15 @@ h1 {
   box-shadow: 10px 5px 10px 5px #7c181c;
 }
 
-h2 {
+/* This is the property for the h2 tag which no longer exsist since the site became two pages */
+/* h2 {
   text-align: left;
   font-size: 34px;
   line-height: 48px;
   margin: 0;
-}
+} */
 
+/* This is the property for the video on the Fangpage */
 .song {
   display: flex;
   margin-bottom: 30px;
@@ -30,7 +34,7 @@ h2 {
   border-radius: 50px;
 }
 
-/* this is the styling for the paragraphs */
+/* This is the property for first two of the paragraphs  */
 
 .life {
   border: 3px solid forestgreen;
@@ -41,6 +45,8 @@ h2 {
   float: left;
 }
 
+/* This is the property for second two of the paragraphs  */
+
 .career {
   border: 3px solid forestgreen;
   color: #f2b818;
@@ -50,11 +56,14 @@ h2 {
   float: right;
 }
 
+/* This is the property for all the paragraphs */
+
 .music {
   margin: auto;
   color: #f2b818;
   text-align: left;
 }
+/* This is the property for the nav bar */
 
 .nav {
   margin: 0;
@@ -65,6 +74,7 @@ h2 {
   box-shadow: 10px 5px 10px 5px #7c181c;
 }
 
+/* This is the property for the nav */
 .nav-link {
   list-style-type: none;
 }
