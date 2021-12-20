@@ -44,11 +44,20 @@ h1 {
 
 /* This the property for the img tag on the life page */
 .luke {
-  max-width: 50%;
+  max-width: 25%;
   display: Block;
-  margin: 0 auto;
+  margin-top: 10px;
   padding: 20px;
   border-radius: 50px;
+  float: left;
+}
+
+.navy {
+  max-width: 35%;
+  display: flex;
+  padding: 20px;
+  border-radius: 50px;
+  float: right;
 }
 
 /* This is the property for all the paragraphs */
@@ -65,7 +74,7 @@ h1 {
   border: 3px solid forestgreen;
   color: #f2b818;
   width: 30%;
-  padding: 2em;
+  padding: 1em;
   margin: 10px;
   float: left;
 }
@@ -76,33 +85,10 @@ h1 {
   border: 3px solid forestgreen;
   color: #f2b818;
   width: 30%;
-  padding: 2em;
+  padding: 1em;
   margin: 10px;
   float: right;
 }
-
-/* .footer {
-  border: 3px solid forestgreen;
-  color: #f2b818;
-  width: 30%;
-  padding: 2em;
-  margin: auto;
-  margin-top: 250px;
-  margin-right: 50px;
-  float: right;
-} */
-
-/* .footer {
-  border: 3px solid forestgreen;
-  color: #f2b818;
-  width: 30%;
-  padding: 2em;
-  margin: auto;
-  left: 0
-  bottom: 0
-
- 
-} */
 
 .footer {
   position: fixed;
@@ -111,8 +97,4 @@ h1 {
   width: 100%;
   background-color: white;
   color: #f2b818;
-}
-
-.b {
-  text-decoration-color: forestgreen;
 }
