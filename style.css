@@ -25,7 +25,7 @@ h1 {
 }
 
 /* This is the property for the image on the fanpage */
-img {
+.combs {
   max-width: 100%;
   display: Block;
   margin: 0 auto;
@@ -38,6 +38,15 @@ img {
   display: flex;
   margin-bottom: 30px;
   margin-top: 30px;
+  padding: 20px;
+  border-radius: 50px;
+}
+
+/* This the property for the img tag on the life page */
+.luke {
+  max-width: 50%;
+  display: Block;
+  margin: 0 auto;
   padding: 20px;
   border-radius: 50px;
 }
@@ -72,7 +81,7 @@ img {
   float: right;
 }
 
-.footer {
+/* .footer {
   border: 3px solid forestgreen;
   color: #f2b818;
   width: 30%;
@@ -81,4 +90,29 @@ img {
   margin-top: 250px;
   margin-right: 50px;
   float: right;
+} */
+
+/* .footer {
+  border: 3px solid forestgreen;
+  color: #f2b818;
+  width: 30%;
+  padding: 2em;
+  margin: auto;
+  left: 0
+  bottom: 0
+
+ 
+} */
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  color: #f2b818;
+}
+
+.b {
+  text-decoration-color: forestgreen;
 }
